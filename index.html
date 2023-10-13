@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APCSP Portfolio</title>
+  </head>
+  <div class="background">
+  <body>
+    <main class="container">
+      <nav>
+        <h2>Seamus Dean's APCSP Portfolio</h2>
+        <ul>
+          <li>
+            <a href="#about">About Me</a>
+            <a href="#code">See Code</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Portfolio</h1>
+      <p>Welcome to my Portfolio for AP Computer Science Principles</p>
+      <h2>More Stuff!</h2>
+      <button id="myButton">Bunny Button</button>
+      <script type="text/javascript">
+          document.getElementById("myButton").onclick = function () {
+              location.href = "bunny.jpg";
+          };
+      </script>
+      <h3 id="about">About Me</h3>
+      <p id="ageText">I am an age year old blah blah blah, see main.js for more</p>
+      
+      <h3 id="code">JavaScript Example</h3>
+      <pre><code lang='tyescript'>
+        function sampleFunction () {
+          console.log('Hello world');
+        }      
+        if (x &lt; 2) {
+          console.log('Go x!');
+        }
+      </code></pre>
+  
+      <pre><code lang="html">
+        &lt;h2>Hello world&lt;/h2>
+        &lt;p>This is sample HTML!&lt;/p>
+      </code></pre>
+
+      <h3>Finally, a fragment imported with JS</h3>
+      <pre>
+        <code id="fragment" lang="js">
+        </code>
+      </pre>
+
+
+     <h3> C-Sharp, and part of my First Program
+     </h3>
+     <pre>
+      <code id="tscalc" lang="cs"></code>
+     </pre>
+      
+      
+      <h3>We can add new features to a project with NPM
+      </h3>
+      <pre>
+        <code id="importExample" lang="sh"></code>
+      </pre>
+
+      
+      
+          <h3>
+            Working Code Examples 
+          </h3>
+        <p> Binary Search Project </p>
+        <iframe src="BuiltProjects/dist/index.html" width=450px height=500px title="Binary Search Project">
+        </iframe>
+      
+      </main>
+    
+      
+      <script type="module" src="/main.js"></script>
+  </body>
+  </div>
+</html>

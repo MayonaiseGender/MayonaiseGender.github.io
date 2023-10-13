@@ -1,0 +1,18 @@
+/* Animated Gradient Background by // https://manuel.pinto.dev */
+body {
+	background: linear-gradient(-45deg, #aa553c, #962c54, #197fa4, #199f80);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
