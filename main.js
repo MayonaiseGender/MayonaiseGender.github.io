@@ -7,7 +7,7 @@ import './style.css'
 
 
 // We can import raw code fragments for samples, like this:
-import fragment from './code-fragments/fragment.js?raw'
+import fragment from './code-fragments/fragment.css?raw'
 document.querySelector('#fragment').textContent = fragment;
 
 import importExample from './code-fragments/importExample.sh?raw'
